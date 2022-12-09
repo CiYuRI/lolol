@@ -1,6 +1,6 @@
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
-const { Client, MessageEmbed, MessageActionRow, MessageButton, Message } = require('discord.js');
+const { Client, MessageEmbed, MessageActionRow, MessageButton, Message } = require('discord.js.old');
 
 const { WebSocketManager } = require('./WebSocket/connection/socket');
 const { DiepCacheSystem } = require('./WebSocket/servers/request');
